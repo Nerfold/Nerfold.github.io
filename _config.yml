@@ -13,42 +13,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+# Welcome to Jekyll!
+
+# Site settings
+title: Nerfold
+name: Nerfold              
+email: 23300240013@m.fudan.edu.cn
+description: >- This is my homepage. I will share my notes and blogs here.
+twitter_username: 
+github_username: Nerfold
+minimal_mistakes_skin: "dark" # 皮肤选项: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai    # 【已修改】设置为中国时间
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -57,36 +46,28 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# 侧边栏个人资料 (Sidebar)
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Yangrui Zhou"       # 【请修改】这里可以写你的真实姓名，显得更正式
+  avatar : "/assets/images/avatar.jpg" # 【重要】请确保你在 assets/images/ 下传了一张叫 avatar.jpg 的照片
+  bio    : "<br>Undergraduate Student." 
+  location: "China"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:23300240013@m.fudan.edu.cn" # 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Nerfold"
 
+# 页脚链接 (Footer)
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Nerfold"
 
+# 默认设置 (Defaults)
 defaults:
   # _posts
   - scope:
@@ -113,3 +94,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# 【非常重要】URL 设置
+# 如果不设置这个，CSS 样式可能会加载失败，页面会很丑
+url: "https://Nerfold.github.io"
+baseurl: ""
