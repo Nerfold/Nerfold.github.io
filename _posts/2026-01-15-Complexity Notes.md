@@ -123,9 +123,9 @@ Johnson Bound的条件是（假设在q元域上编码）：
 
 1. 码距 d 满足：$ (1-1/q)(1-\epsilon) < d < 1- 1/q$ （后者是plokin bound）
 
-2. 解码半径 r 满足: $r < (1-1/q)(1-\delta)$ 其中 $\delta > \sqrt{\epsilon}$
+2. 解码半径 r 满足:  $r < (1-1/q)(1-\delta)$ 其中 $\delta > \sqrt{\epsilon}$
 
-   或者更精确的：$ r < (1-1/q)(1-\sqrt{1-\frac{qd}{q-1}})$
+   或者更精确的：$r < (1-1/q)(1-\sqrt{1-\frac{qd}{q-1}})$
 
 在上述条件下，列表大小是$O(1/\delta^2)$
 
