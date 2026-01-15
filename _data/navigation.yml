@@ -2,6 +2,6 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /_pages/year-archive/
+    url: /blog/
   - title: "CV"
     url: /cv/
