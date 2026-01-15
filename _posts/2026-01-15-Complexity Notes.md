@@ -1,11 +1,8 @@
 ---
-title: "这里写文章标题"
+title: "Notes on Complexity"
 date: 2026-01-15
 toc: true             # (可选) 是否在文章右侧显示目录(Table of Contents)
 ---
-
-这里开始写正文...
-
 
 
 # Complexity Notes
