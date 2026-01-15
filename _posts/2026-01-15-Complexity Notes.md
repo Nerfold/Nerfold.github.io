@@ -1,7 +1,7 @@
 ---
 title: "Notes on Complexity"
 date: 2026-01-15
-toc: true             # (可选) 是否在文章右侧显示目录(Table of Contents)
+mathjax: true
 ---
 
 
