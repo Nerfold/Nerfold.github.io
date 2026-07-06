@@ -25,7 +25,7 @@ My primary research interests lie at the intersection of Cryptography and Blockc
 
 ## Research Projects
 
-* **Dynamic Privacy-Preserving Proofs of Assets on Blockchain** *Research Project* [<i class="fas fa-file-pdf"></i> Draft PDF](/files/Proof_of_Asset.pdf)  
+* **Dynamic Privacy-Preserving Proofs of Assets on Blockchain** *Research Project* 
   Designed a dynamic Proof of Assets (PoA) system on Ethereum to resolve the trade-off between public address transparency and ZKP efficiency. Designed a dynamic asset proof mechanism that reduces incremental proof generation costs by binding local state to the blockchain's global state and avoiding verification of chain-specific merkle proofs in zero-knowledge circuit.
 
 * **A Survey on the Stable Arithmetic Regularity Lemma** *Survey* [<i class="fas fa-file-pdf"></i> Report PDF](/files/survey_stable_regularity.pdf)  
